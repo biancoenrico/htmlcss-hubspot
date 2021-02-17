@@ -1,0 +1,125 @@
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON */
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.container80{
+    width: 80%;
+    margin: auto;
+}
+
+.container80 .fix-nav-left,.fix-nav-right{
+    display: inline-block;
+}
+
+.two-col{
+    width: 48%;
+}
+
+.orange-button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fe775a;
+    color: white;
+}
+
+.inline{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #6e7f8d;
+}
+
+/* HEADER */
+
+.fixed-nav{
+    height: 50px;
+    background-color: #f4f9fd;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid black;
+}
+
+/* left column fixed nav */
+
+.divider{
+    padding-right: 24px;
+    height: 20px;
+    border-right: 1px solid gray;
+}
+
+/* right column fixed nav */
+
+.fix-nav-right{
+    text-align: right;
+}
+
+.fas {
+    color: #03a6be;
+}
+
+.login{
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+    color: #fe775a;
+}
+
+.free{
+    padding: 8px;
+}
+
+.logo{
+    height: 50px;
+    padding: 12px;
+    padding-left: 0;
+}
+
+/* unfixed Nav */
+.nav{
+    height: 50px;
+    padding-top: 50px;
+}
+
+/*Nav right column*/
+.nav-right{
+    text-align: right;
+
+}
+
+/* Nav left column */
+.nav-left{
+    height: 50px;
+    vertical-align: middle;
+}
+.green{
+    height: 50px;
+    width: 100%;
+    background-color: #afebe4;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    bottom: -51px;
+}
