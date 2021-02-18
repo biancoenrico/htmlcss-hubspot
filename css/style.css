@@ -57,13 +57,31 @@ ul{
 a{
     text-decoration: none;
     color: #334a5b;
+    font-size: 12px;
 }
 
 .graytext{
     color: #334a5b;
 }
 
-p,li{
+.check{
+    color: #33475b;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 0;
+    text-align: left;
+}
+
+.check-ul{
+    margin-bottom: 20%;
+}
+
+.pop-feat{
+    font-size: 14px;
+    padding: 7%;
+}
+
+p{
     color: #33475b;
     font-weight: 600;
     font-size: 14px;
@@ -87,6 +105,20 @@ h2,h3,h4{
 .fa-check-circle{
     color: #fe775a;
     padding-right: 12px;
+}
+.col-img{
+    width: 100px;
+    height: 100px;
+
+}
+
+.col-p{
+    padding-bottom: 20%;
+}
+
+.col-line{
+    width: 90%;
+    border: 1px solid #899397;
 }
 
 
@@ -215,8 +247,9 @@ h1{
 
 /* MAIN */
 
+/* Advantages section */
 .advantages{
-    height: 1000px;
+    padding-bottom: 5%;
     background-color: #f4f9fd;
     
 }
@@ -266,4 +299,29 @@ h1{
     padding-left: 3%;
 }
 
+.col{
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #e6ecf1;
+    padding: 3%;
+    float: left;
+    width: 29%;
+    text-align: center;
+}
+
+.col-center{
+    margin-left: 6.5%;
+    margin-right: 6.5%;
+}
+/*End Advantages section */
+
+/* Learn And Grow section */
+
+.learn-and-grow{
+    height: 800px;
+    background: linear-gradient(#00a4bd, #00bda5 );
+}
+
+/*End Learn And Grow section */
 /* END MAIN */
