@@ -24,6 +24,10 @@ body{
     margin: auto;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .container80 .fix-nav-left,.fix-nav-right{
     display: inline-block;
 }
@@ -121,6 +125,59 @@ h2,h3,h4{
     border: 1px solid #899397;
 }
 
+.col-support{
+    margin-top: 3%;
+    border: 1px solid white;
+    padding: 3%;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.bottom{
+    border-bottom: none;
+}
+
+.square{
+    height: 200px;
+    width: 260px;
+    margin: auto;
+    border-top: none;
+    border-right: none;
+}
+
+.left-supp{
+    border-left: none;
+}
+
+.prominence{
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    padding: 5%;
+}
+.black-prominence{
+    font-size: 32px;
+    font-weight: 800;
+    color: #334a5b;
+    padding: 10%;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.container75{
+    width: 75%;
+    margin: auto;
+    padding-top: 5%;
+}
+.float{
+    float: left;
+}
+
+.footer-a{
+    color: white;
+    font-size: 12px;
+}
 
 /* End common */
 
@@ -319,9 +376,153 @@ h1{
 /* Learn And Grow section */
 
 .learn-and-grow{
-    height: 800px;
     background: linear-gradient(#00a4bd, #00bda5 );
+    margin: 3px;
+    padding-bottom: 8%;
+}
+.learn-and-grow h2{
+    color: white;
+    text-align: center;
+}
+.learn-and-grow p{
+    color: white;
+    text-align: center;
 }
 
+
+.learn-and-grow h2{
+    font-size: 26px;
+    padding-top: 5%;
+}
+
+.supporter{
+    padding-top: 3%;
+}
+.col-support img{
+    height: 35px;
+}
+.col-support p{
+    font-size: 10px;
+}
 /*End Learn And Grow section */
+
+/*Partner section*/
+.partner{
+    height: 550px;
+}
+
+.left{
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+.right{
+    width: 74%;
+    display: inline-block;
+    text-align: right;
+}
+.logos{
+    float: right;
+}
+.logos img{
+    width: 100px;
+}
+.logos li{
+    padding: 10px;
+}
+
+.grow-left{
+    width: 40%;
+    display: inline-block;
+    float: left;
+    padding-top: 5%;
+    
+}
+.grow-left h2,.grow-left P{
+    padding-bottom: 8%;
+    display: block;
+}
+.grow-button{
+    margin-bottom: 8%;
+}
+.get-started{
+    font-size: 10px;
+}
+.grow-right img{
+    width: 280px;
+    float: right;
+    padding-top: 3%;
+}
+
+/*End Partner section*/
+
 /* END MAIN */
+
+/*FOOTER*/
+footer{
+    margin-top: 10%;
+    background-color: #32495b;
+}
+.footer-col{
+    width: 24%;
+}
+.footer-col p{
+    color: #dadee0;
+    font-weight: 800;
+}
+.footer-col ul{
+    padding-top: 5%;
+}
+.footer-col ul li{
+    padding: 2%;
+}
+footer .orange-button{
+    color: #32495b;
+    background-color: #dadee0;
+    margin: 5% 0;
+}
+footer a{
+    color: #dadee0;
+}
+footer .fab{
+    color: #dadee0;
+    margin-right: 12%;
+}
+.footer-cont{
+    padding-bottom: 10%;
+}
+.language{
+    text-align: center;
+    margin: auto;
+}
+
+.language li{
+    padding-right: 2%;
+    padding-bottom: 3%;
+}
+.container90{
+    width: 90%;
+}
+.footer-line{
+    padding-bottom: 3%;
+    border-top: 1px solid #dadee0;
+    margin: auto;
+}
+
+.footer-end-left{
+    float: left;
+}
+.footer-end-right{
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+.footer-end-right li{
+    padding-left: 5%;
+}
+.copyright{
+    color: #dadee0;
+    font-size: 10px;
+    padding-bottom: 10%;
+}
+/*END FOOTER*/
