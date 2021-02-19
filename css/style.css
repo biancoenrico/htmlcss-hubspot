@@ -315,7 +315,7 @@ h1{
     height: 170px;
     margin-top: 7%;
 }
-
+/*features part*/
 .crm{
     height: 100px;
 }
@@ -383,18 +383,13 @@ h1{
 .learn-and-grow h2{
     color: white;
     text-align: center;
+    font-size: 26px;
+    padding-top: 5%;
 }
 .learn-and-grow p{
     color: white;
     text-align: center;
 }
-
-
-.learn-and-grow h2{
-    font-size: 26px;
-    padding-top: 5%;
-}
-
 .supporter{
     padding-top: 3%;
 }
