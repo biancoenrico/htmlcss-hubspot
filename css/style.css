@@ -219,6 +219,7 @@ footer .orange-button:hover{
     width: 100%;
     position: fixed;
     border-bottom: 1px solid black;
+    box-shadow: 0  1px 20px #b1b1b1c7;
 }
 
 /* left column fixed nav */
